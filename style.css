@@ -16,6 +16,11 @@ h1,h2,h3
 {
     font-family: Roboto;
 }
+h2
+{
+    font-size: 4rem;
+    font-weight: 400;
+}
 p
 {
     font-size: 1.6rem;
@@ -164,8 +169,6 @@ h1
 }
 .simple h2
 {
-    font-size: 4rem;
-    font-weight: 400;
     margin-right: 16rem;
 }
 .simple p
@@ -209,4 +212,62 @@ h1
 .debt h3
 {
     margin-top: 15.3rem;
+}
+.interest
+{
+    display: flex;
+    margin-top: 31rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.interest div
+{
+    margin-left: 4rem;
+}
+.interest h2
+{
+    width: 40rem;
+}
+.button
+{
+    text-transform: uppercase;
+    color:rgba(253, 176, 171, 1);
+    background-color:rgba(20, 42, 49, 1);
+    width: 23.8rem;
+    height: 2.4rem;
+    border-radius: 5px;
+    border-style: none;
+    margin-bottom: 4rem;
+}
+.interest p
+{
+    margin-top: 3rem;
+    width: 45vw;
+}
+.interest img
+{
+    margin-top: -5rem;
+    margin-right: 8.8rem;
+}
+.brands_section
+{
+    padding-left: 10.4rem;
+    margin-top: 27.2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.brands_section div
+{
+    margin-top: 6.5rem;
+    text-align: left;
+    margin-right: 4.2rem;
+}
+.brands_section h2
+{
+    width: 30rem;
+}
+.brands_section p
+{
+    margin-top:2.7rem ;
+    width: 44vw;
 }
