@@ -1,0 +1,155 @@
+*
+{
+    margin: 0 ;
+    padding: 0 ;
+}
+html
+{
+    font-size: 10px;
+    color: rgba(20, 42, 49, 1);
+}
+p,h1,h2,h3
+{
+    color: rgba(20, 42, 49, 1);
+}
+p
+{
+    font-size: 1.6rem;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+  }  
+header
+{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    height: 8.7rem;
+    align-items: center;
+}
+header div
+{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    gap: 4.5rem;
+}
+header ul
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 3.2rem;
+    line-height: 2.8rem;
+}
+li a
+{
+    text-decoration: none;
+    color: rgba(20, 42, 49, 1);
+}
+header button
+{
+    text-transform: uppercase;
+    background-color: rgba(253, 176, 171, 1);
+    padding: 1.5rem 4rem;
+    margin-right: 6rem;
+    border-radius: 12.8rem;
+    border-style: none;
+}
+header button:hover
+{
+    opacity: 50%;
+}
+header img
+{
+    margin-left: 6.5rem;
+}
+.manage_section
+{
+    background-color:rgba(243, 248, 243, 1);
+    display: flex;
+    justify-content: space-between;
+    gap: 7.7rem;
+}
+.manage
+{
+    margin-top: 15rem;
+    margin-left: 5.5rem;
+}
+h1
+{
+    font-family: Roboto;
+    font-size: 6.4rem;
+    font-weight: 400;
+    line-height: 70.4px;
+    letter-spacing: 0%;
+    margin-bottom: 4rem;
+}
+.manage p
+{
+    width: 45rem;
+}
+.button_div
+{
+    display: flex;
+    flex-direction: column;
+    gap:1.9rem ;
+    margin-top: 3.1rem;
+}
+.manage button
+{
+    background-color:rgba(20, 42, 49, 1);
+    color:white;
+    font-size: 1.6rem;
+    font-weight: 100;
+    align-items:center;
+    padding: 1rem;
+    width: 25rem;
+    height: 4.7rem;
+    border-radius: 12.8rem;
+    display: flex;
+    gap: 3rem;
+}
+.manage button img
+{
+    width: 2rem;
+}
+.phone
+{
+    min-width: 41.6vw;
+    background-color:rgba(20, 42, 49, 1);
+    overflow: hidden;
+    margin-top: 6.8rem;
+    text-align: center;
+    border-top-left-radius: 5rem;
+}
+.phone img
+{
+    transform:translateY(7.5rem);
+}
+.second_section 
+{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    padding-top: 13.6rem;
+}
+.second_section div
+{
+    text-align: center;
+
+}
+.des
+{
+    font-size: 2rem;
+    width: 44rem;
+    letter-spacing: 0%;
+}
+.s
+{
+    display: flex;
+    align-items:center;
+    gap: 2.8rem;
+    justify-content: center;
+    margin-top: 4.8rem;
+}
