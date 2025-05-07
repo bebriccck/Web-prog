@@ -21,6 +21,11 @@ h2
     font-size: 4rem;
     font-weight: 400;
 }
+h3
+{
+    font-weight: 400;
+    font-size: 2.1rem;
+}
 p
 {
     font-size: 1.6rem;
@@ -105,7 +110,7 @@ h1
     gap:1.9rem ;
     margin-top: 3.1rem;
 }
-.manage button, .step button
+.manage button, .step button , footer button
 {
     background-color:rgba(20, 42, 49, 1);
     color:white;
@@ -119,7 +124,7 @@ h1
     display: flex;
     gap: 3rem;
 }
-.manage button img , .step button img
+button img  
 {
     width: 2rem;
 }
@@ -336,6 +341,7 @@ h1
     background-color:rgba(253, 176, 171, 1);
     border: 8px solid rgba(251, 219, 216, 1);
     text-align:center;
+    align-items:center;
 }
 .step h3
 {
@@ -355,3 +361,230 @@ h1
     margin-left:auto;
     margin-right: auto;
 }
+.update_section
+{
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.h2plusbutton 
+{
+    display: flex;
+    justify-content: space-between;
+}
+.update_section h2
+{
+    margin-top: 9.6rem;
+    margin-bottom: 3.2rem;
+}
+.update_section button
+{
+    width: 19.6rem;
+    height: 5.2rem;
+    text-transform: uppercase;
+    border-radius: 128px;
+    background-color:rgba(253, 176, 171, 1);
+    border-style: none;
+    margin-top: 9.6rem;
+}
+.posts
+{
+    margin-top: 5.9rem;
+    display: flex;
+    justify-content: space-between;
+}
+.post
+{
+    width: 28.58vw;
+}
+.post h3
+{
+    margin-top: 2.7rem;
+    margin-bottom: 0.8rem;
+}
+.author_div
+{
+    display: flex;
+    gap: 1.2rem;
+    margin-top: 2.5rem;
+}
+.author_div p
+{
+    display: flex;
+    flex-direction: column;
+}
+.author_div img
+{
+    height: fit-content;
+}
+.date
+{
+    color:rgba(71, 84, 103, 1);
+}
+.list_section
+{
+    padding-top: 16.5rem;
+    margin-top:10rem;
+    text-align: center;
+
+}
+.list_section h2
+{
+    width: 56.33vw;
+    margin-left:auto;
+    margin-right: auto;
+}
+.list
+{
+    width: 64vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.item
+{
+    display: flex;
+    justify-content: space-between;
+
+    margin-left:auto;
+    margin-right: auto;
+    align-items: center;
+}
+.plus-square {
+    width: 2.4rem;
+    height: 2.4rem;
+    border: 2px solid #8c97a6;
+    align-items: center;
+    font-size: 24px;
+    color: #8c97a6;
+    line-height: 1;
+}
+.plus
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+hr
+{
+    margin-top: 2.9rem;
+    margin-bottom: 2.2rem;
+    border: rgba(234, 236, 240, 1) solid 0.1px;
+}
+.list_section h2
+{
+    margin-bottom: 8.1rem;
+}
+.control_section
+{
+    background-color:rgba(20, 42, 49, 1);
+    margin-left: 4rem;
+    margin-right: 4rem;
+    text-align: center;
+    padding-top: 9.5rem;
+    margin-top: 24.5rem;
+    padding-bottom: 12.2rem;
+    border-radius:16px;
+}
+.control_section h1
+{
+    margin-bottom: 0rem;
+}
+.white
+{
+    color:white;
+}
+.wr .white
+{
+    margin-left: -16.5rem;
+    color:white;
+}
+.red
+{
+    z-index: 10;
+    color:#FDB0AB;
+    margin-top: -6.3rem;
+    margin-left: -2rem;
+}
+.white2
+{
+    color:white;
+    margin-left: 5.5rem;
+}
+.control_section p
+{
+    color:white;
+    margin-top: 2.4rem;
+}
+.control_section .button_div
+{
+    margin-top: 4.2rem;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5.6rem;
+}
+.control_section button
+{
+    background-color:rgb(255, 255, 255);
+    color:rgba(20, 42, 49, 1);
+    font-size: 1.6rem;
+    font-weight: 100;
+    align-items:center;
+    padding: 1rem;
+    width: 25rem;
+    height: 4.7rem;
+    border-radius: 12.8rem;
+    display: flex;
+    gap: 3rem;
+}
+footer
+{
+    margin-top: 8rem;
+    padding-top: 7rem;
+    padding-left: 4.5rem;
+}
+footer .button_div
+{
+    margin-top: 5.7rem;
+}
+.social-icons
+{
+    margin-top: 5rem;
+    display: flex;
+    gap: 2.4rem;
+}
+.social-icons a {
+    color:black; 
+    font-size: 2.4rem; 
+}
+.content_section 
+{
+    display: flex;
+    justify-content: space-between;
+}
+ul
+{
+    font-size: 1.5rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    margin-right: 11.7rem;
+}
+.copyright
+{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.copyright div
+{
+    width: 52.75vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2.1rem;
+}
+.copyright p
+{
+    color:#8c97a6;
+    font-size: 1.4rem;
+}
+
