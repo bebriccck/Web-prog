@@ -74,6 +74,29 @@ header button:hover
 {
     opacity: 50%;
 }
+.burger-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.burger-toggle {
+    display: none;
+}
+
+.burger-btn {
+    display: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.burger-btn span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    margin: 5px 0;
+    transition: all 0.5s ease;
+}
 header img
 {
     margin-left: 6.5rem;
@@ -84,6 +107,7 @@ header img
     display: flex;
     justify-content: space-between;
     gap: 7.7rem;
+    overflow: hidden;
 }
 .manage
 {
@@ -139,6 +163,7 @@ button img
 }
 .phone img
 {
+    width: 30.3;
     transform:translateY(7.5rem);
 }
 .second_section 
@@ -147,6 +172,8 @@ button img
     align-items:center;
     justify-content:center;
     padding-top: 13.6rem;
+    flex-wrap: wrap;
+    gap:13rem;
 }
 .second_section div
 {
@@ -186,6 +213,7 @@ button img
     margin-top: 15.5rem;
     padding: 0 3.2rem;
 }
+
 .cards div
 {
     width: 32rem;
@@ -259,6 +287,7 @@ button img
     margin-top: 27.2rem;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .brands_section div
 {
@@ -280,6 +309,7 @@ button img
     display: flex;
     justify-content: space-between;
     margin-top: 26.5rem;
+    flex-wrap: wrap;
 }
 .anxiety_sections div
 {
@@ -301,6 +331,7 @@ button img
     display: flex;
     justify-content: space-between;
     margin-top: 32.3rem;
+    flex-wrap: wrap;
 }
 .pay_section img
 {
@@ -396,6 +427,10 @@ button img
 {
     width: 28.58vw;
 }
+.post img
+{
+    width: 100%;
+}
 .post h3
 {
     margin-top: 2.7rem;
@@ -414,6 +449,7 @@ button img
 }
 .author_div img
 {
+    width: fit-content;
     height: fit-content;
 }
 .date
@@ -559,7 +595,7 @@ footer .button_div
     display: flex;
     justify-content: space-between;
 }
-ul
+footer ul
 {
     font-size: 1.5rem;
     list-style: none;
@@ -574,6 +610,7 @@ ul
     display: flex;
     justify-content: space-between;
     align-items:center;
+    padding-right: 4rem;
 }
 .copyright div
 {
@@ -587,4 +624,127 @@ ul
     color:#8c97a6;
     font-size: 1.4rem;
 }
+@media (max-width:1050px) {
+    .burger-btn {
+        display: block;
+    }
+    .burger-btn {
+        display: block;
+        position: relative;
+        z-index: 1000;
+    }
+    .nav-container {
+        display: none;
+        position: absolute;
+        top: 100%; 
+        left: 50%; 
+        transform: translateX(-50%);
+        background-color: white;
+        z-index: 999;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+        padding: 1rem 2rem;
+        width: max-content;
+        min-width: 12rem;
+        border-radius: 0.5rem;
+    }
+    .nav {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        gap: 1.5rem;
+    }
 
+    .nav li {
+        list-style: none;
+    }
+
+    .nav a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    .burger-toggle:checked ~ .nav-container {
+        display: block;
+    }
+    .burger-toggle:checked + .burger-btn span:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .burger-toggle:checked + .burger-btn span:nth-child(2) {
+        opacity: 0;
+    }
+    .bot
+    {
+        margin-top: -1.5rem;
+    }
+    .burger-toggle:checked + .burger-btn span:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .cards
+    {
+        flex-direction:column;
+        gap: 5rem;
+    }
+    .cards *
+    {
+        margin: 0;
+        margin-left:auto ;
+        margin-right: auto;
+    }
+    .cards h3
+    {
+        margin: 2rem;
+    }
+    .interest
+    {
+        margin-top: 10rem;
+        text-align: center;
+        gap: 10rem;
+    }
+    .interest *
+    {
+        margin-left:auto;
+        margin-right: auto;
+    }
+    .steps
+    {
+        flex-direction: column;
+    }
+    .step p
+    {
+        margin: 0 auto;
+    }
+    .brands_section  , .anxiety_sections ,.pay_section 
+    {
+        padding: 0;
+    }
+    .brands_section * , .anxiety_sections *,.pay_section *
+    {
+        padding: 0;
+        margin:0 auto
+    }
+    .simple h2
+    {
+        margin-right: 0;
+    }
+    .anxiety_sections img
+    {
+        margin-top: 5rem;
+    }
+    .pay_section img
+    {
+        margin-bottom: 5rem;
+    }
+    .posts
+    {
+        flex-direction: column;
+        gap: 7rem;
+    }
+    .post
+    {
+        margin-left: auto;
+        margin-right: auto;
+        width:44.6vw;
+    }
+}
