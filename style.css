@@ -70,6 +70,10 @@ header button
     border-radius: 12.8rem;
     border-style: none;
 }
+.mobile-button
+{
+    display: none;
+}
 header button:hover
 {
     opacity: 50%;
@@ -729,7 +733,7 @@ footer ul
         margin-right: 0;
     }
     .anxiety_sections img
-    {
+    {   
         margin-top: 5rem;
     }
     .pay_section img
@@ -746,5 +750,183 @@ footer ul
         margin-left: auto;
         margin-right: auto;
         width:44.6vw;
+    }
+}
+@media (max-width:600px) {
+    @media (max-width:600px) {
+        header button {
+            display: none; /* Скрываем кнопку в хедере */
+        }
+        
+        .nav-container {
+            width: 100%; /* Растягиваем меню на всю ширину */
+            left: 0;
+            transform: none;
+            border-radius: 0;
+            padding: 2rem;
+            box-sizing: border-box;
+        }
+        
+        .nav {
+            align-items: center;
+        }
+        
+        /* Добавляем кнопку в меню */
+        .nav-container .mobile-button {
+            display: block;
+            width: 100%;
+            text-align: center;
+            margin-top: 1.5rem;
+            padding: 1.5rem 0;
+            background-color: rgba(253, 176, 171, 1);
+            border-radius: 12.8rem;
+            text-transform: uppercase;
+            color: rgba(20, 42, 49, 1);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        /* Остальные стили для мобильной версии */
+        header {
+            padding: 0 2rem;
+            height: auto;
+        }
+        header img {
+            margin-left: 0;
+        }
+        h1
+        {
+            font-size: 5.8rem;
+            margin: 0 auto;
+        }
+        h1,h2,h3,p
+        {
+            max-width: 80vw;
+        }
+        button
+        {
+            margin-left: auto;
+            margin-right:auto; 
+        }
+        .steps
+        {
+            padding: 0;
+            text-align: center;
+        }
+        .h2plusbutton
+        {
+            flex-direction: column;
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        .post
+        {
+            width: 80vw;
+        }
+        .control_section .button_div
+        {
+            flex-direction: column;
+        }
+        .control_section
+        {
+            margin-left:0rem;
+            margin-right:0rem;
+            border-radius:0rem;
+        }
+        .wr .white
+        {
+            margin-left: auto;
+            margin-right:auto; 
+        }
+        .red
+        {
+            margin-left: auto;
+            margin-right:auto; 
+        }
+        .white2
+        {
+            margin-left: auto;
+            margin-right:auto; 
+        }
+        .pay_section img, .anxiety_sections img ,.brands_section img
+        {
+            margin-left: auto;
+            margin-right:auto; 
+        }
+        .pay_section , .anxiety_sections  ,.brands_section 
+        {
+            margin-top: 5rem; 
+            text-align: center;
+        }
+        .pay_section *, .anxiety_sections  *,.brands_section * 
+        {
+            margin-left: auto;
+            margin-right:auto; 
+            padding: 0; 
+        }
+        .pay_section button, .anxiety_sections button ,.brands_section button
+        {
+            margin-left: auto;
+            margin-right:auto; 
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+        img
+        {
+            max-width: 80vw;
+        }
+        .cards
+        {
+            padding: 0;
+        }
+        header div
+        {
+            flex-direction:row-reverse;
+        }
+        .phone
+        {
+            display: none;
+        }
+        .manage
+        {
+            padding: 0;
+            text-align: center;
+            margin-left: auto;
+            margin-right:auto; 
+        }
+        .manage *
+        {
+            margin-left: auto;
+            margin-right:auto; 
+        }
+        .simple h2, p
+        {
+            margin-left: auto;
+            margin-right:auto; 
+        }
+        .interest img
+        {
+            margin-left: auto;
+            margin-right:auto; 
+        }
+        footer ul
+        {
+            display: none;
+        }
+        footer
+        {
+            padding-left: 0;
+            text-align: center;
+        }
+        footer *
+        {
+            margin-left: auto;
+            margin-right:auto; 
+        }
+
+        .cp
+        {
+            display: none;
+        }
     }
 }
