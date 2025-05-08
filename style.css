@@ -698,7 +698,7 @@ footer ul
     }
     .cards h3
     {
-        margin: 2rem;
+        margin: 2rem auto;
     }
     .interest
     {
@@ -923,7 +923,27 @@ footer ul
             margin-left: auto;
             margin-right:auto; 
         }
-
+        h2,h3
+        {
+            text-align: center;
+            width: 100%;
+            max-width: 100%;
+        }
+        .anxiety_sections div
+        {
+            margin-left: auto;
+        }
+        .interest div
+        {
+            margin-left: 0rem;
+            width: 100%;
+        }
+        .brands_section p, .pay_section p , .anxiety_section p
+        {
+            width: 100%;
+            margin-right: 0rem;
+            margin-left: 0rem;
+        }
         .cp
         {
             display: none;
